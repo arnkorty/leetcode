@@ -24,4 +24,7 @@ class MedianOfTwoSortedArrays {
       
       return findKthElement(A, B, aStart, bStart + k / 2, k - k / 2);
   }
+    public static void main(String[] args) {
+
+    }
 }

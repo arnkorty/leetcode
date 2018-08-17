@@ -1,12 +1,13 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
- */
+
+
+
 class AddTwoNumbers {
+    // Definition for singly-linked list.
+    public class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) { val = x; }
+    }
   public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
       int carry = 0;
       ListNode root = null;
@@ -32,4 +33,7 @@ class AddTwoNumbers {
       
       return root;
   }
+    public static void main(String[] args) {
+
+    }
 }

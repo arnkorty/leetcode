@@ -1,3 +1,4 @@
+import  java.util.*;
 class LongestSubstringWithoutRepeatingCharacters {
   public int lengthOfLongestSubstring(String s) {
      int[] m = new int[256];
@@ -10,4 +11,7 @@ class LongestSubstringWithoutRepeatingCharacters {
       }
       return res;
   }
+    public static void main(String[] args) {
+
+    }
 }
